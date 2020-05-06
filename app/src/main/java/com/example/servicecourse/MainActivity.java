@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         networkChangeReceiver = new NetworkChangeReceiver();
         registerReceiver(networkChangeReceiver, new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION));
 
+        // Update Code
 
 //        SharedPreferences mySharedPreferences = getSharedPreferences("userData", MODE_PRIVATE);
 //
